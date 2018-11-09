@@ -1,32 +1,32 @@
-#ifndef TABLE_H_
-#define TABLE_H_
+#include "Table.h"
+#include <iostream>
 
-#include <vector>
-#include "Customer.h"
-#include "Dish.h"
 
-typedef std::pair<int, Dish> OrderPair;
-
-class Table{
-public:
-    Table(int t_capacity);
-    int getCapacity() const;
-    void addCustomer(Customer* customer);
-    void removeCustomer(int id);
-    Customer* getCustomer(int id);
-    std::vector<Customer*>& getCustomers();
-    std::vector<OrderPair>& getOrders();
-    void order(const std::vector<Dish> &menu);
-    void openTable();
-    void closeTable();
-    int getBill();
-    bool isOpen();
-private:
-    int capacity;
-    bool open;
-    std::vector<Customer*> customersList;
-    std::vector<OrderPair> orderList; //A list of pairs for each order in a table - (customer_id, Dish)
+Table::Table(int t_capacity){
+};
+int Table::getCapacity() const{
+    return capacity;
+};
+void Table::addCustomer(Customer* customer){
+    customersList.push_back(customer);
+};
+void Table::removeCustomer(int id){
 };
 
+Customer* Table::getCustomer(int id){};
+std::vector<Customer*>& Table::getCustomers(){
+    return customersList;
+};
+std::vector<OrderPair>& Table::getOrders(){
+    return orderList;
+};
+void Table::order(const std::vector<Dish> &menu){};
+void Table::openTable(){};
+void Table::closeTable(){};
+int Table::getBill(){
+    return 1;
+};
+bool Table::isOpen(){
+    return open;
+};
 
-#endif

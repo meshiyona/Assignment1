@@ -1,115 +1,131 @@
-#ifndef ACTION_H_
-#define ACTION_H_
 #include "Action.h"
+#include "Table.h"
+#include "Restaurant.h"
+#include <iostream>
 
 
 //Forward declaration
 
-    BaseAction::BaseAction(){}
-    ActionStatus getStatus() const;
-    virtual void act(Restaurant& restaurant)=0;
-    virtual std::string toString() const=0;
-    void complete();
-    void error(std::string errorMsg);
-    std::string getErrorMsg() const;
+BaseAction::BaseAction(){}
+ActionStatus BaseAction::getStatus() const{
+};
+void BaseAction::act(Restaurant& restaurant){};
+std::string BaseAction::toString() const{
+    return "";
+};
+void BaseAction::complete(){}
+void BaseAction::error(std::string errorMsg){
+    std::cout << errorMsg << std::endl;
+}
+std::string BaseAction::getErrorMsg() const{
+    return "";
+}
 
 
 
-class OpenTable : public BaseAction {
-public:
-    OpenTable(int id, std::vector<Customer *> &customersList);
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-	const int tableId;
-	const std::vector<Customer *> customers;
+OpenTable::OpenTable(int id, std::vector<Customer *> &customersList): tableId(id){
+    std::vector<Customer *> customers(customersList);
+
+}
+void OpenTable::act(Restaurant &restaurant){
+    Table* newTable = restaurant.getTable(tableId);
+    if (newTable->isOpen() | restaurant.getTable(tableId) == nullptr)
+        error("Table does not exist or is already open");
+    else
+        newTable->openTable();
+        for (int i=0; i<customers.size(); i++){
+            newTable->addCustomer(customers[i]);
+        }
+        toString();
 };
 
-
-class Order : public BaseAction {
-public:
-    Order(int id);
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-    const int tableId;
-};
-
-
-class MoveCustomer : public BaseAction {
-public:
-    MoveCustomer(int src, int dst, int customerId);
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-    const int srcTable;
-    const int dstTable;
-    const int id;
-};
-
-
-class Close : public BaseAction {
-public:
-    Close(int id);
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-    const int tableId;
-};
-
-
-class CloseAll : public BaseAction {
-public:
-    CloseAll();
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-};
-
-
-class PrintMenu : public BaseAction {
-public:
-    PrintMenu();
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-};
-
-
-class PrintTableStatus : public BaseAction {
-public:
-    PrintTableStatus(int id);
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-    const int tableId;
-};
-
-
-class PrintActionsLog : public BaseAction {
-public:
-    PrintActionsLog();
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-};
-
-
-class BackupRestaurant : public BaseAction {
-public:
-    BackupRestaurant();
-    void act(Restaurant &restaurant);
-    std::string toString() const;
-private:
-};
-
-
-    RestoreResturant::RestoreResturant(){}
-    void RestoreResturant::act(Restaurant &restaurant){}
-    std::string RestoreResturant::toString() const;{
-        return "";
+std::string OpenTable::toString() const{
+    std::string cust = "";
+    for (int i=0; i<customers.size(); i++) {
+        cust = cust + customers[i]->toString() + " ";
     }
+    return "open "+ std::to_string(tableId)+" "+cust;
+};
 
 
 
-#endif
+Order::Order(int id): tableId(id){
+
+};
+void Order::act(Restaurant &restaurant){
+    Table* newTable = restaurant.getTable(tableId);
+    if (newTable->isOpen() | restaurant.getTable(tableId) == nullptr)
+        error("Table does not exist or is already open");
+    else
+        newTable->order(restaurant.getMenu());
+        toString();
+};
+
+std::string Order::toString() const{
+    return "";
+};
+
+
+
+
+MoveCustomer::MoveCustomer(int src, int dst, int customerId): srcTable(src), dstTable(dst), id(customerId){};
+void MoveCustomer::act(Restaurant &restaurant){};
+std::string MoveCustomer::toString() const{
+    return "";
+};
+
+
+
+Close::Close(int id): tableId(id){};
+void Close::act(Restaurant &restaurant){};
+std::string Close::toString() const{
+    return "";
+};
+
+
+
+CloseAll::CloseAll(){};
+void CloseAll::act(Restaurant &restaurant){};
+std::string CloseAll::toString() const{
+    return "";
+};
+
+
+
+
+PrintMenu::PrintMenu(){};
+void PrintMenu::act(Restaurant &restaurant){};
+std::string PrintMenu::toString() const{
+    return "";
+};
+
+
+
+PrintTableStatus::PrintTableStatus(int id):tableId(id){};
+void PrintTableStatus::act(Restaurant &restaurant){};
+std::string PrintTableStatus::toString() const{
+    return "";
+};
+
+
+
+PrintActionsLog::PrintActionsLog(){};
+void PrintActionsLog::act(Restaurant &restaurant){};
+std::string PrintActionsLog::toString() const{
+    return "";
+};
+
+
+BackupRestaurant::BackupRestaurant(){};
+void BackupRestaurant::act(Restaurant &restaurant){};
+std::string BackupRestaurant::toString() const{
+    return "";
+};
+
+
+
+RestoreResturant::RestoreResturant(){}
+void RestoreResturant::act(Restaurant &restaurant){}
+std::string RestoreResturant::toString() const{
+    return "";
+};
