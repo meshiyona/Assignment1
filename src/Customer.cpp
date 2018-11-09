@@ -4,9 +4,9 @@
 #include "Customer.h"
 
 Customer::Customer(std::string c_name, int c_id): name(c_name), id(c_id){}
+
 std::vector<int> Customer::order(const std::vector<Dish> &menu){
-	std::vector<int> v;
-	return v;
+    std::vector<int> dishesId;
 }
 std::string Customer::toString() const{
 	return "";
@@ -19,6 +19,7 @@ int Customer::getId() const{
 }
 
 VegetarianCustomer::VegetarianCustomer(std::string name, int id): Customer::Customer(name,id){}
+
 std::vector<int> VegetarianCustomer::order(const std::vector<Dish> &menu){
 	std::vector<int> v;
 	return v;

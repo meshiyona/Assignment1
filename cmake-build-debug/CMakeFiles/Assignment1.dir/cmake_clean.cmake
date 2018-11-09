@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment1.dir/src/Main.cpp.o"
   "CMakeFiles/Assignment1.dir/src/Restaurant.cpp.o"
   "CMakeFiles/Assignment1.dir/src/Table.cpp.o"
+  "CMakeFiles/Assignment1.dir/src/Tools.cpp.o"
   "Assignment1.pdb"
   "Assignment1"
 )

@@ -11,9 +11,11 @@ add_executable(Assignment1
         include/Dish.h
         include/Restaurant.h
         include/Table.h
+        include/Tools.h
         src/Action.cpp
         src/Customer.cpp
         src/Dish.cpp
         src/Main.cpp
         src/Restaurant.cpp
-        src/Table.cpp)
+        src/Table.cpp
+        src/Tools.cpp)

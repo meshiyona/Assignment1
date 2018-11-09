@@ -99,6 +99,9 @@
 		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Table.h">
 			<Option target="Assignment1"/>
 		</Unit>
+		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Tools.h">
+			<Option target="Assignment1"/>
+		</Unit>
 		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Action.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
@@ -115,6 +118,9 @@
 			<Option target="Assignment1"/>
 		</Unit>
 		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Table.cpp">
+			<Option target="Assignment1"/>
+		</Unit>
+		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Tools.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
 		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/CMakeLists.txt">

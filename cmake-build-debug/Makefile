@@ -285,6 +285,33 @@ src/Table.cpp.s:
 	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Table.cpp.s
 .PHONY : src/Table.cpp.s
 
+src/Tools.o: src/Tools.cpp.o
+
+.PHONY : src/Tools.o
+
+# target to build an object file
+src/Tools.cpp.o:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Tools.cpp.o
+.PHONY : src/Tools.cpp.o
+
+src/Tools.i: src/Tools.cpp.i
+
+.PHONY : src/Tools.i
+
+# target to preprocess a source file
+src/Tools.cpp.i:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Tools.cpp.i
+.PHONY : src/Tools.cpp.i
+
+src/Tools.s: src/Tools.cpp.s
+
+.PHONY : src/Tools.s
+
+# target to generate assembly for a file
+src/Tools.cpp.s:
+	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/src/Tools.cpp.s
+.PHONY : src/Tools.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +339,9 @@ help:
 	@echo "... src/Table.o"
 	@echo "... src/Table.i"
 	@echo "... src/Table.s"
+	@echo "... src/Tools.o"
+	@echo "... src/Tools.i"
+	@echo "... src/Tools.s"
 .PHONY : help
 
 
