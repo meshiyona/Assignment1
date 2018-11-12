@@ -15,6 +15,7 @@ public:
 private:
     const std::string name;
     const int id;
+    std::vector<int> dishes;
 };
 
 
@@ -24,6 +25,7 @@ public:
     std::vector<int> order(const std::vector<Dish> &menu);
     std::string toString() const;
 private:
+    std::vector<int> dishes;
 };
 
 
@@ -33,6 +35,7 @@ public:
     std::vector<int> order(const std::vector<Dish> &menu);
     std::string toString() const;
 private:
+    std::vector<int> dishes;
 };
 
 
@@ -42,6 +45,7 @@ public:
     std::vector<int> order(const std::vector<Dish> &menu);
     std::string toString() const;
 private:
+    std::vector<int> dishes;
 };
 
 
@@ -51,6 +55,8 @@ public:
     std::vector<int> order(const std::vector<Dish> &menu);
     std::string toString() const;
 private:
+    std::vector<int> dishes;
+    std::vector<Dish> alcVec;
 };
 
 

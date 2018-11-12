@@ -48,6 +48,18 @@ Customer.h
 Dish.h
 ../include/Dish.h
 
+../include/Tools.h
+string
+-
+vector
+-
+sstream
+-
+Dish.h
+../include/Dish.h
+Customer.h
+../include/Customer.h
+
 /Users/meshiy/CLionProjects/Assignment1/src/Action.cpp
 Action.h
 /Users/meshiy/CLionProjects/Assignment1/src/Action.h
@@ -55,6 +67,8 @@ Table.h
 /Users/meshiy/CLionProjects/Assignment1/src/Table.h
 Restaurant.h
 /Users/meshiy/CLionProjects/Assignment1/src/Restaurant.h
+Tools.h
+/Users/meshiy/CLionProjects/Assignment1/src/Tools.h
 iostream
 -
 
@@ -83,6 +97,18 @@ Table.h
 /Users/meshiy/CLionProjects/Assignment1/src/Table.h
 Action.h
 /Users/meshiy/CLionProjects/Assignment1/src/Action.h
+Tools.h
+/Users/meshiy/CLionProjects/Assignment1/src/Tools.h
 Restaurant.h
 /Users/meshiy/CLionProjects/Assignment1/src/Restaurant.h
+
+/Users/meshiy/CLionProjects/Assignment1/src/Tools.cpp
+string
+-
+vector
+-
+sstream
+-
+Tools.h
+-
 

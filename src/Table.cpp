@@ -31,6 +31,7 @@ Customer* Table::getCustomer(int id){
             return customersList[i];
         }
     }
+    return nullptr;
 };
 
 
@@ -43,7 +44,15 @@ std::vector<OrderPair>& Table::getOrders(){
 };
 void Table::order(const std::vector<Dish> &menu) {
     for (int i = 0; i < customersList.size(); i++) {
-        customersList[i]->order(menu);
+        std::vector<int> dishes = customersList[i]->order(menu);
+        for (int j = 0; j < dishes.size(); j++) {
+            for (int m = 0; m < menu.size(); m++) {
+                if (dishes[j] == menu[m].getId()) {
+                    OrderPair *pair = new OrderPair(customersList[i]->getId(), menu[m]);
+                    orderList.push_back(*pair);
+                }
+            }
+        }
     }
 };
 
