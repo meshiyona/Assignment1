@@ -15,7 +15,9 @@ public:
 	Restaurant();
     Restaurant(const std::string &configFilePath);
     Restaurant(Restaurant& other);
+    virtual ~Restaurant();
     Restaurant& operator=(Restaurant& other);
+    Restaurant(Restaurant&& other);
     void start();
     int getNumOfTables() const;
     Table* getTable(int ind);
