@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/meshiy/CLionProjects/Assignment1/src/Action.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Action.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Customer.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Customer.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Dish.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Dish.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Main.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Main.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Restaurant.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Restaurant.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Table.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Table.cpp.o"
-  "/Users/meshiy/CLionProjects/Assignment1/src/Tools.cpp" "/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Tools.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Action.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Action.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Customer.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Customer.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Dish.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Dish.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Main.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Main.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Restaurant.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Restaurant.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Table.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Table.cpp.o"
+  "/Users/maykogan/CLionProjects/Assignment1-copy/src/Tools.cpp" "/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/CMakeFiles/Assignment1.dir/src/Tools.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

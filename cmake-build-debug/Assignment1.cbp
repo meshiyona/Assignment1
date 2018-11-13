@@ -8,122 +8,122 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug"/>
+				<Option working_dir="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug"/>
+				<Option working_dir="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug"/>
+				<Option working_dir="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Assignment1">
-				<Option output="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Assignment1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug"/>
+				<Option output="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/meshiy/CLionProjects/Assignment1/include"/>
+					<Add directory="/Users/maykogan/CLionProjects/Assignment1-copy/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Assignment1/fast">
-				<Option output="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Assignment1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug"/>
+				<Option output="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Assignment1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/meshiy/CLionProjects/Assignment1/include"/>
+					<Add directory="/Users/maykogan/CLionProjects/Assignment1-copy/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/meshiy/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maykogan/CLionProjects/Assignment1-copy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Action.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Action.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Customer.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Customer.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Dish.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Dish.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Restaurant.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Restaurant.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Table.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Table.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/include/Tools.h">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/include/Tools.h">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Action.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Action.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Customer.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Customer.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Dish.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Dish.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Main.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Main.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Restaurant.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Restaurant.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Table.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Table.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/src/Tools.cpp">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/src/Tools.cpp">
 			<Option target="Assignment1"/>
 		</Unit>
-		<Unit filename="/Users/meshiy/CLionProjects/Assignment1/CMakeLists.txt">
+		<Unit filename="/Users/maykogan/CLionProjects/Assignment1-copy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
