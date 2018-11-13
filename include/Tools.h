@@ -9,18 +9,12 @@
 
 typedef std::pair<int, Dish> OrderPair;
 
-//TODO 5 rules
-
-class Tools {
+class Tools{
 public:
     Tools();
-
     std::vector<std::string> split(std::string str, char delimiter);
-
     DishType enumCheck(std::string str);
-
-    std::vector<Customer *> customerByType(std::vector<std::string> input);
-
+    std::vector<Customer*> customerByType(std::vector<std::string> input);
     int getBill(std::vector<OrderPair> orderList);
 };
 

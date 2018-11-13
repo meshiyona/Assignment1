@@ -8,9 +8,8 @@
 #include "Action.h"
 #include "Tools.h"
 #include "Restaurant.h"
+using namespace std;
 
-
-using namespace std;8
 
 Restaurant::Restaurant(){
 }

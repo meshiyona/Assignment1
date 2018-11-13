@@ -15,9 +15,6 @@ class Restaurant;
 class BaseAction{
 public:
     BaseAction();
-    BaseAction(BaseAction& other);
-    virtual ~BaseAction();
-    BaseAction& operator=(BaseAction& other);
     ActionStatus getStatus() const;
     virtual void act(Restaurant& restaurant)=0;
     virtual std::string toString() const=0;
@@ -34,21 +31,17 @@ private:
 class OpenTable : public BaseAction {
 public:
     OpenTable(int id, std::vector<Customer *> &customersList);
-    OpenTable(OpenTable& other);
-    ~OpenTable();
     void act(Restaurant &restaurant);
     std::string toString() const;
 private:
 	const int tableId;
-	std::vector<Customer *> customers;
+	const std::vector<Customer *> customers;
 };
 
 
 class Order : public BaseAction {
 public:
     Order(int id);
-    Order(Order& other);
-    ~Order();
     void act(Restaurant &restaurant);
     std::string toString() const;
 private:
@@ -59,8 +52,6 @@ private:
 class MoveCustomer : public BaseAction {
 public:
     MoveCustomer(int src, int dst, int customerId);
-    MoveCustomer(MoveCustomer& other);
-    ~MoveCustomer();
     void act(Restaurant &restaurant);
     std::string toString() const;
 private:
@@ -73,8 +64,6 @@ private:
 class Close : public BaseAction {
 public:
     Close(int id);
-    Close(Close& other);
-    ~Close();
     void act(Restaurant &restaurant);
     std::string toString() const;
 private:
@@ -103,8 +92,6 @@ private:
 class PrintTableStatus : public BaseAction {
 public:
     PrintTableStatus(int id);
-    PrintTableStatus(PrintTableStatus& other);
-    ~PrintTableStatus();
     void act(Restaurant &restaurant);
     std::string toString() const;
 private:

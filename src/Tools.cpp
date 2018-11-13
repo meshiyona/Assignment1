@@ -2,7 +2,7 @@
 #include <vector>
 #include <sstream>
 #include <Tools.h>
-// may
+
 Tools::Tools(){};
 DishType Tools::enumCheck(std::string str) {
     DishType type;
